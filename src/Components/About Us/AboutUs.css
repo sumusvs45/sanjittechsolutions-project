@@ -1,0 +1,75 @@
+.aboutUs-header
+{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    margin-left:140px;
+    margin-top: 40px;
+}
+.aboutUs-border
+{
+    width:8%;
+    height:8px;
+    background-color: #000;
+
+}
+.about-card
+{
+    height:80vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding:40px 100px;
+    margin-top: 40px;
+  
+    background: linear-gradient(to right,#FEF9FF,#AAC2E8);
+    border-radius: 0px 40px 0px 40px; 
+}
+.about-left
+{
+    width:50%;
+    padding: 0px  40px;
+}
+.about-left  p
+{
+    font-size: 18px;
+    font-weight: 400;
+}
+.about-left  span
+{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.about-right
+{
+    width:auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.img-1
+{
+    width:200px;
+    height:220px;
+    border-radius: 22px;
+    position: absolute;
+    top:0;
+    left:0;
+
+
+}
+.img-2
+{
+    width:200px;
+    height:220px;
+    border-radius: 22px;
+    position: absolute;
+    bottom: -30px;;
+    right:-70px;
+    z-index:10;
+
+}

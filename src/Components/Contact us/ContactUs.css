@@ -1,0 +1,56 @@
+.contactUs-box
+{
+    width:90%;
+    height:280px;
+    background-color: #fff;
+    color:#000000;
+    box-shadow: 3px 10px 5px 0px rgb(207, 207, 207);
+    border-radius:18px;
+    margin:60px auto;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.contactUs-card
+{
+    width:80%;
+    padding:40px;
+
+
+}
+
+.contactUs-card h3
+{
+    font-size:28px;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-bottom:20px;
+}
+.contactUs-card p
+{
+    font-size:18px;
+    font-weight: 400;
+    margin-bottom:20px;
+}
+.para
+{
+    font-size: 18px;
+    font-weight: 800;
+    color:#00246B;
+}
+.contactUs-btn
+{
+    width:30%; 
+    background-color: #042056;
+    color:#fff;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px auto;
+    border-radius: 8px;
+
+}

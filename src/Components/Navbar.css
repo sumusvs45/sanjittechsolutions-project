@@ -1,0 +1,49 @@
+:root
+{
+    --background-color: #7FA3DC
+}
+
+.navbar
+{
+    background-color:var(--background-color);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:4px 48px;
+    color:white;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3)
+}
+.logo
+{
+    width:200px;
+    height:80px;
+}
+.nav-right
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+}
+.nav-links
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    display: none;
+    background-color: black;
+}
+.nav-links li
+{
+    list-style-type: none;
+    font-size: 18px;
+}
+.icon {
+    font-size: 36px; 
+    color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

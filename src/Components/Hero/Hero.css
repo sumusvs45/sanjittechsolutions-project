@@ -1,0 +1,94 @@
+:root
+{
+    --background-color: #7FA3DC;
+    --bglinear-gradient: linear-gradient(to right,#00246B,#7FA3DC)
+}
+
+.hero-section
+{
+
+    height:80vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 80px;
+    background-color: var(--background-color);
+    position:relative;
+    overflow: hidden;
+}
+.hero-heading
+{
+     width:41%;
+    font-size: 54px;
+    font-weight: 800;
+    margin-bottom: 140px;
+    margin-left: 140px;
+}
+
+.sm-circle
+{
+    height:80px;
+    width:80px;
+    background:linear-gradient(to right,#00246B,#7FA3DC);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 120px;
+    left: 120px
+}
+.md-circle
+{
+    height:120px;
+    width:120px;
+    background:linear-gradient(to right,#00246B,#7FA3DC);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 84px;
+    right: 177px
+}
+
+.semi-circle
+{
+    width: 400px;
+    height:400px;
+    background-color:linear-gradient(to right,#00246B,#7FA3DC);!important
+    border-radius:50%;
+    transform: rotate(270deg);
+}
+
+
+.big-circle {
+    width: 421px;
+    height: 459px;
+    background: linear-gradient(to right, #0a2c6c, #4667ad);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: -180px;
+    transform: rotate(270deg);
+}
+
+
+.half-eclipse-ring {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Makes it an ellipse */
+    border: 20px solid rgba(70, 103, 173, 0.8); /* Outer ring color */
+    border-radius:  50%; /* Makes an elliptical shape */
+    clip-path: inset(0 50% 0 0); /* Hides the right half */
+    background: linear-gradient(to right#7FA3DC,#00246B);
+    position: absolute;
+    left:-100px;
+    top:40px;
+    transform: rotate(180deg);
+}
+
+.md-eclipse
+{
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to left, #FEF9FF, #AAC2E8);
+    border-radius:50%;
+    position: absolute;
+    top: 90px;
+    left: -40px;
+    transform: rotate(180deg);
+}
