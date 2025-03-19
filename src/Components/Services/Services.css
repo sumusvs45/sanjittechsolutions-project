@@ -125,3 +125,24 @@
     line-height: 21px;
     margin-top: 20px;
 }
+@media (min-width:768px) and (max-width:990px)
+{
+    .services-header
+    {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px  auto;
+
+    }
+    .sub-heading
+    {
+        font-size: 32px;
+    }
+    .sub-text
+    {
+        font-size: 28px;
+      
+    }
+}

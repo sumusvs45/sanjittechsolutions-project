@@ -77,3 +77,16 @@
     font-size: 24px;
     margin-bottom: 12px;
 }
+@media (min-width:768px) and (max-width:990px)
+{
+    .card-left
+    {
+        width:428px;
+        right: 70px;
+    }
+    .card-right
+    {
+        width:428px;
+        left:48px
+    }
+}
