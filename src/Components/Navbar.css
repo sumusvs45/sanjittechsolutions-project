@@ -1,49 +1,88 @@
-:root
-{
-    --background-color: #7FA3DC
+:root {
+    --background-color: #7FA3DC;
+    --text-color: white;
+    --menu-bg-color: black;
+    --hover-color: #4e73b6;
 }
-
-.navbar
-{
-    background-color:var(--background-color);
+ 
+/* Navbar Styling */
+.navbar {
+    background-color: var(--background-color);
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    padding:4px 48px;
-    color:white;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3)
+    padding: 12px 48px;
+    color: var(--text-color);
+    position: relative;
+    z-index: 1000;
 }
-.logo
-{
-    width:200px;
-    height:80px;
+ 
+/* Logo Styling */
+.logo {
+    width: 160px;
+    height: auto;
+    transition: transform 0.3s 0.4s ease-in-out;
 }
-.nav-right
-{
+.logo:hover {
+    transform: scale(1.05);
+}
+ 
+/* Right Section */
+.nav-right {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap:20px;
-
+    gap: 20px;
 }
-.nav-links
-{
+ 
+/* Hide Nav Links Initially */
+.nav-links {
+    display: none;    /* Initially hidden */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+/* Show Menu When Toggled */
+.nav-links.show {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:40px;
-    display: none;
-    background-color: black;
+    padding: 15px 20px;
+    border-radius: 8px;
+    z-index: 10;
+    animation: slideIn 0.5s 0.1s forwards ease-in-out;
 }
-.nav-links li
-{
-    list-style-type: none;
+ 
+/* List Items */
+.nav-links li {
     font-size: 18px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: color 0.3s;
 }
+ 
+.nav-links li:hover {
+    color: var(--hover-color);
+}
+ 
+/* Menu Icon */
 .icon {
-    font-size: 36px; 
-    color: #fff; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 32px;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: transform 0.3s;
 }
+ 
+/* Hover Effect for Icon */
+.icon:hover {
+    transform: scale(1.1);
+}
+ 
+/* Animation for Smooth Menu Appearance */
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);  /* Start from right */
+    }
+    to {
+        transform: translateX(0);      /* Slide to its normal position */
+    }
+}
+ 
