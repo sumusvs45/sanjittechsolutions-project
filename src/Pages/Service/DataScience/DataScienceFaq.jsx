@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FiPlus, FiX } from "react-icons/fi";
-import "../DataScience/DataScience.css"; // Import CSS file
+import "../DataScience/DataScienceFaq.css";
 
 const faqs = [
   {
