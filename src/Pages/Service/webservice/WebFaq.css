@@ -1,14 +1,14 @@
-.faq_container {
+.web-faq_container {
     text-align: center;
   }
   
-  .faq {
+  .web-faq {
     font-size: 24px; /* Adjust size as needed */
     font-weight: 600;
     color: #333;
   }
   
-  .faq_container h2 {
+  .web-faq_container h2 {
     font-size: 28px;
     font-weight: 700;
     color: #222;
@@ -16,12 +16,12 @@
   }
   
 
-.faq-container {
+.web-faq-container {
     max-width: 600px;
     margin: 20px auto;
   }
   
-  .faq-box {
+  .web-faq-box {
     border: 1px solid #ddd;
     border-radius: 8px;
     margin-bottom: 10px;
@@ -30,7 +30,7 @@
     overflow: hidden;
   }
   
-  .faq-question {
+  .web-faq-question {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -45,12 +45,12 @@
     color: #333;
   }
   
-  .faq-icon {
+  .web-faq-icon {
     font-size: 22px;
     color: #333;
   }
   
-  .faq-answer {
+  .web-faq-answer {
     padding: 15px;
     font-size: 16px;
     color: #555;
