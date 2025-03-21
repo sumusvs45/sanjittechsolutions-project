@@ -77,16 +77,34 @@
     font-size: 24px;
     margin-bottom: 12px;
 }
-@media (min-width:768px) and (max-width:990px)
+@media (min-width:600px) and (max-width:768px)
 {
+    .whyChoose-header
+    {
+        margin-left: 82px;
+    }
     .card-left
     {
-        width:428px;
-        right: 70px;
+        width:410px;
+        height:154px;
+        padding: 24px;
+        right:20px;
     }
     .card-right
     {
-        width:428px;
-        left:48px
+        width: 410px;
+        bottom: 44px;
+        height:154px;
+        padding: 24px;
+        left: 20px;
+    }
+
+    .card-left .card-right h2
+    {
+        font-size: 22px;
+    }
+    .card-left .card-right p
+    {
+        font-size: 16px;
     }
 }

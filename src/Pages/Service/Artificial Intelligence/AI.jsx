@@ -9,22 +9,22 @@ import { FaCalendarCheck } from "react-icons/fa";
 import { IoPeopleSharp } from "react-icons/io5";
 import { FaMoneyBillTrendUp } from "react-icons/fa6";
 import { SiAdguard } from "react-icons/si";
-
 import app_icon from "../../../assets/app development 1.webp";
 import webbg from "../../../assets/web-service-bg.webp";
 import webbg_lt from "../../../assets/web-service-bg-lt.webp";
 import CTA_img from "../../../assets/CTA_Image.webp";
-import "../AppService/AppService.css";
+import "../Artificial Intelligence/Ai.css";
+import AiProcess from "./AiProcess/AiProcess";
 
 export default function Ai() {
   return (
-    <div className="app_dev">
-      <div className="app_dev_hero">
-        <div className="app_dev_hero_two">
+    <div className="ai_app_dev">
+      <div className="ai_app_dev_hero">
+        <div className="ai_app_dev_hero_two">
           <img src={app_icon}></img>
         </div>
-        <div className="app_dev_hero_one">
-          <h1 className="app_dev_hero_h1">
+        <div className="ai_app_dev_hero_one">
+          <h1 className="ai_app_dev_hero_h1">
           Unlock the power of Artificial Intelligence with Sanjit Tech Solutions.
           </h1>
           <p>
@@ -34,79 +34,34 @@ export default function Ai() {
           <button type="submit">Let's Build</button>
         </div>
       </div>
-      <div className="why_box">
-        <p className="sub-heading">Why Choose Our Ai Development Service</p>
-        <p className="sub-text"> Our Ai development Process</p>
+      <div className="ai_why_box">
+        <p className="ai_sub-heading">Why Choose Our Ai Development Service</p>
+        <p className="ai_sub-text"> Our Ai development Process</p>
       </div>
-      <div className="process">
-        <div className="process_one">
-          <div className="process1">01</div>
-          <div className="process2">02</div>
-          <div className="process3">03</div>
-          <div className="process4">04</div>
-          <div className="process5">05</div>
-        </div>
-        <div className="process_two">
-          <h2>Understanding Your Business Needs</h2>
-          <p>
-            Before development begins, we analyze your business requirements,
-            target users, and competitors. This helps us create an app strategy
-            that aligns with your brand’s goals, ensuring a user-friendly and
-            market-ready application.{" "}
-          </p>
-        </div>
-
-        {/* <div className="process_two">
-        <h2>Planning & Prototyping </h2>
-          <p>Once we define the objectives, we move to the planning and prototyping stage. This includes 
-designing wireframes, user flows, and UI/UX layouts to create an intuitive and engaging app 
-experience. Every feature and screen is mapped out for seamless usability.  </p>
-        </div>
-        <div className="process_two">
-          <h2> UI/UX Design & App Development</h2>
-          <p>Modern and responsive UI/UX design for seamless user engagement 
-Agile development using the latest technologies and frameworks 
-Cross-platform and native solutions (Android, iOS, and Web Apps) </p>
-        </div>
-        <div className="process_two">
-        <h2> Testing & Optimization</h2>
-          <p>We conduct extensive testing to ensure your app works flawlessly across devices and platforms. Our 
-testing process includes: 
-Performance & Speed Optimization 
-Bug Fixing & Security Checks 
-User Experience (UX) Testing for smooth functionality </p>
-        </div>
-        <div className="process_two">
-        <h2> Deployment & Ongoing Support</h2>
-          <p>Once testing is complete, we launch your app on the App Store, Google Play, or private platforms. 
-Our commitment doesn’t end there—we provide ongoing maintenance, updates, and performance 
-monitoring to ensure continued success.  </p>
-        </div> */}
-      </div>
-
-      <div className="properties">Why Our AI Solutions Stand Out </div>
-      <div className="boxes">
-        <img className="webbg-1" src={webbg_lt} alt="image" />
-        <div className="boxes1">
-          <div className="box-1">
-            <div className="box-icon">
-              <BiCodeBlock size={40} className="icon-code-block" />
+      <AiProcess/>
+      <div className="ai_properties">Why Our AI Solutions Stand Out </div>
+      <div className="ai_boxes">
+        <img className="ai_webbg-1" src={webbg_lt} alt="image" />
+        <div className="ai_boxes1">
+          <div className="ai_box-1">
+            <div className="ai_box-icon">
+              <BiCodeBlock size={40} className="ai_icon-code-block" />
             </div>
             <p>We develop AI solutions specific to your business needs, 
             ensuring maximum impact and efficiency</p>
           </div>
-          <div className="box-2">
-            <div className="box-icon">
-              <FaPeopleArrows size={40} className="icon-code-block" />
+          <div className="ai_box-2">
+            <div className="ai_box-icon">
+              <FaPeopleArrows size={40} className="ai_icon-code-block" />
             </div>
             <p>
             Our AI models analyze data to provide 
             actionable insights, helping businesses make smarter decisions
             </p>
           </div>
-          <div className="box-3">
-            <div className="box-icon">
-              <FaLaptop size={40} className="icon-code-block" />
+          <div className="ai_box-3">
+            <div className="ai_box-icon">
+              <FaLaptop size={40} className="ai_icon-code-block" />
             </div>
             <p>
             Our AI models are built for scalability, seamlessly 
@@ -114,28 +69,28 @@ monitoring to ensure continued success.  </p>
             </p>
           </div>
         </div>
-        <div className="boxes2">
-          <div className="box-4">
-            <div className="box-icon">
-              <FaCalendarCheck size={40} className="icon-code-block" />
+        <div className="ai_boxes2">
+          <div className="ai_box-4">
+            <div className="ai_box-icon">
+              <FaCalendarCheck size={40} className="ai_app_icon-code-block" />
             </div>
             <p>
             We ensure all AI implementations adhere to industry standards, 
             protecting sensitive data and maintaining compliance.
             </p>
           </div>
-          <div className="box-5">
-            <div className="box-icon">
-              <SlGraph size={40} className="icon-code-block" />
+          <div className="ai_box-5">
+            <div className="ai_box-icon">
+              <SlGraph size={40} className="ai_app_icon-code-block" />
             </div>
             <p>
               Integrating cutting-edge tech for enhanced performance and
               scalability
             </p>
           </div>
-          <div className="box-6">
-            <div className="box-icon">
-              <MdOutlineSecurity size={40} className="icon-code-block" />
+          <div className="ai_box-6">
+            <div className="ai_box-icon">
+              <MdOutlineSecurity size={40} className="ai_app_icon-code-block" />
             </div>
             <p>
             Our AI solutions continuously evolve through 
@@ -143,15 +98,15 @@ monitoring to ensure continued success.  </p>
             </p>
           </div>
         </div>
-        <img className="webbg-2" src={webbg} alt="image" />
+        <img className="ai_webbg-2" src={webbg} alt="image" />
       </div>
-      <div className="professional">
+      <div className="ai_professional">
         <h1>Why AI is Essential for Your Business </h1>
-        <div className="professinal-boxes">
-          <div className="professional-box-one">
-            <SiAdguard size={40} className="icon-code-block" />
+        <div className="ai_professinal-boxes">
+          <div className="ai_professional-box-one">
+            <SiAdguard size={40} className="ai_app_icon-code-block" />
 
-            <div className="professional-content">
+            <div className="ai_professional-content">
               <h2>Enhances Efficiency & Automation </h2>
               <ul>
                 <li>
@@ -162,15 +117,13 @@ monitoring to ensure continued success.  </p>
                 Smart Workflow Optimization – AI streamlines operations, reducing errors and improving 
                 productivity. .
                 </li>
-                <li>
-                AI-Powered Decision Making – Data-driven insights help businesses make smarter, faster decisions.
-                </li>
+                
               </ul>
             </div>
           </div>
-          <div className="professional-box-two">
-            <IoPeopleSharp size={40} className="icon-code-block" />
-            <div className="professional-content">
+          <div className="ai_professional-box-two">
+            <IoPeopleSharp size={40} className="ai_app_icon-code-block" />
+            <div className="ai_professional-content">
               <h2> Improves Customer Experience & Engagement</h2>
               <ul>
                 <li>
@@ -180,16 +133,13 @@ monitoring to ensure continued success.  </p>
                 Sentiment Analysis & Predictive Behavior – Understand customer needs and tailor experiences 
                 accordingly. 
                 </li>
-                <li>
-                Personalized Recommendations – AI-driven insights enhance customer satisfaction and 
-engagement. .
-                </li>
+               
               </ul>
             </div>
           </div>
-          <div className="professional-box-three">
-            <FaMoneyBillTrendUp size={40} className="icon-code-block" />{" "}
-            <div className="professional-content">
+          <div className="ai_professional-box-three">
+            <FaMoneyBillTrendUp size={40} className="ai_app_icon-code-block" />{" "}
+            <div className="ai_professional-content">
               <h2> Drives Business Growth & Innovation </h2>
               <ul>
                 <li>
@@ -198,25 +148,23 @@ engagement. .
                 <li>
                 Competitive Advantage – Businesses leveraging AI stay ahead in a fast-evolving market.
                 </li>
-                <li>
-                Scalability & Adaptability – AI solutions grow with your business, ensuring long-term success.
-                </li>
+               
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div className="faq_container">
-        <h4 className="faq">FAQ's</h4>
+      <div className="ai_faq_container">
+        <h4 className="ai_faq">FAQ's</h4>
         <h2>Got Questions? We've got answers!</h2>
         {/* Faq Component */}
         <AiFaq />
       </div>
-      <div className="service-contact">
-        <div className="service-contact-img">
+      <div className="ai_service-contact">
+        <div className="ai_service-contact-img">
           <img src={CTA_img} alt="Call to Action"></img>
         </div>
-        <div className="service-contact-content">
+        <div className="ai_service-contact-content">
           <h1>Empower Your Business with a Custom App </h1>
           <p>
             In today’s mobile-first world, having a custom-built app is a

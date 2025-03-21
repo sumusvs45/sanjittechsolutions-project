@@ -93,24 +93,28 @@
     transform: rotate(180deg);
 }
 
-@media (min-width:768px) and (max-width:990px)
+@media (min-width:600px) and (max-width:768px)
 {
-    .hero-heading {
-        width: 100%;
-        font-size: 40px;
-        font-weight: 800;
-        margin-bottom: 140px;
-        margin-left: 80px;
-    }
-    .sub-heading
+    .hero-section
     {
-        font-size:28px;
+
+        padding: 0;
     }
-    .sub-text
+    
+    .hero-heading
     {
-        font-size:24px;
-        width:100%;
-        
-    margin-left: 479px
+        font-size: 35px;
+       
+    }
+    .big-circle
+    {
+        width:370px;
+        height:385px;
+        bottom:54px;
+    }
+    .md-circle
+    {
+        bottom: 79px;
+        right: 108px;
     }
 }

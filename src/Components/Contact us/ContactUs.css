@@ -54,10 +54,22 @@
     border-radius: 8px;
 
 }
-@media (min-width:768px) and (max-width:990px)
+@media (min-width:600px) and (max-width:768px)
 {
     .contactUs-card {
         width: 80%;
         padding: 32px;
+    }
+    .contactUs-card h3
+    {
+        font-size:26px;
+    }
+    .contactUs-btn
+    {
+        margin: -3px 215px;
+    }
+    .footer-logo img {
+        width: 80px;
+        height: 100%;
     }
 }

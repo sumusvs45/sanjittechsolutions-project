@@ -85,4 +85,34 @@
         transform: translateX(0);      /* Slide to its normal position */
     }
 }
- 
+
+@media (min-width:481px) and (max-width:768px)
+{
+    .navbar
+    {
+        width:100%;
+    }
+    .logo
+    {
+        width: 130px;
+    }
+    .icon
+    {
+        font-size: 42px;
+    }
+    .hero-heading
+    {
+        font-size: 44px;
+    }
+    .big-circle
+    {
+        width:420px;
+        height:385px;
+        bottom:54px;
+    }
+    .md-cicle
+    {
+        bottom: 79px;
+        right: 135px;
+    }
+}

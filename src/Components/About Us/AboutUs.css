@@ -73,32 +73,33 @@
     z-index:10;
 
 }
-@media (min-width:768px) and (max-width:990px)
+@media (min-width:600px) and (max-width:768px)
 {
-    .about-card
-    {
+     .aboutUs-header
+     {
+        margin-left:67px;
+     }
+     .about-card
+     {
         padding:0;
-    }
-    .about-left p
-    {
-        font-size:18px;
-    }
-    .img-1 {
+     }
+     .img-1 {
         width: 180px;
         height: 180px;
         border-radius: 22px;
         position: absolute;
-        top: -11px;
-        left: 0;
-        z-index: 20;
+        top: -47px;
+        left: -26px;
+        z-index: 10;
     }
-    .img-2 {
+    .img-2
+    {
         width: 180px;
         height: 180px;
         border-radius: 22px;
         position: absolute;
         bottom: -30px;
         right: -70px;
-        z-index: 10;
+
     }
 }

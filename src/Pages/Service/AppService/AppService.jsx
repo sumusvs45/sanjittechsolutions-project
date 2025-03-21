@@ -15,6 +15,7 @@ import webbg from "../../../assets/web-service-bg.webp";
 import webbg_lt from "../../../assets/web-service-bg-lt.webp";
 import CTA_img from "../../../assets/CTA_Image.webp";
 import "../AppService/AppService.css";
+import AppProcess from "./AppProcess/AppProcess";
 
 export default function WebService() {
   return (
@@ -35,55 +36,12 @@ export default function WebService() {
           <button type="submit">Let's Build</button>
         </div>
       </div>
+      <AppProcess/>
       <div className="why_box">
         <p className="sub-heading">Why Choose Our App Development Service</p>
         <p className="sub-text"> Our App development Process</p>
       </div>
-      <div className="process">
-        <div className="process_one">
-          <div className="process1">01</div>
-          <div className="process2">02</div>
-          <div className="process3">03</div>
-          <div className="process4">04</div>
-          <div className="process5">05</div>
-        </div>
-        <div className="process_two">
-          <h2>Understanding Your Business Needs</h2>
-          <p>
-            Before development begins, we analyze your business requirements,
-            target users, and competitors. This helps us create an app strategy
-            that aligns with your brand’s goals, ensuring a user-friendly and
-            market-ready application.{" "}
-          </p>
-        </div>
-
-        {/* <div className="process_two">
-        <h2>Planning & Prototyping </h2>
-          <p>Once we define the objectives, we move to the planning and prototyping stage. This includes 
-designing wireframes, user flows, and UI/UX layouts to create an intuitive and engaging app 
-experience. Every feature and screen is mapped out for seamless usability.  </p>
-        </div>
-        <div className="process_two">
-          <h2> UI/UX Design & App Development</h2>
-          <p>Modern and responsive UI/UX design for seamless user engagement 
-Agile development using the latest technologies and frameworks 
-Cross-platform and native solutions (Android, iOS, and Web Apps) </p>
-        </div>
-        <div className="process_two">
-        <h2> Testing & Optimization</h2>
-          <p>We conduct extensive testing to ensure your app works flawlessly across devices and platforms. Our 
-testing process includes: 
-Performance & Speed Optimization 
-Bug Fixing & Security Checks 
-User Experience (UX) Testing for smooth functionality </p>
-        </div>
-        <div className="process_two">
-        <h2> Deployment & Ongoing Support</h2>
-          <p>Once testing is complete, we launch your app on the App Store, Google Play, or private platforms. 
-Our commitment doesn’t end there—we provide ongoing maintenance, updates, and performance 
-monitoring to ensure continued success.  </p>
-        </div> */}
-      </div>
+       {/* <AppProcess/> */}
 
       <div className="properties">Why Our App Development Stands Out</div>
       <div className="boxes">
