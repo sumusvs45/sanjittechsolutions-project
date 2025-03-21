@@ -1,6 +1,7 @@
+  
 import { useState } from "react";
 import { FiPlus, FiX } from "react-icons/fi";
-import "../DataScience/DataScienceFaq.css";
+import "../DataScience/DataScienceFaq.css"; // Import CSS file
 
 const faqs = [
   {
@@ -35,19 +36,19 @@ export default function DataScienceFaq() {
   };
 
   return (
-    <div className="faq-container">
+    <div className="ds-faq-container">
       {faqs.map((faq, index) => (
-        <div key={index} className="faq-box">
-          <button className="faq-question" onClick={() => toggleFAQ(index)}>
+        <div key={index} className="ds-faq-box">
+          <button className="ds-faq-question" onClick={() => toggleFAQ(index)}>
             {faq.question}
             {openIndex === index ? (
-              <FiX className="faq-icon" />
+              <FiX className="ds-faq-icon" />
             ) : (
-              <FiPlus className="faq-icon" />
+              <FiPlus className="ds-faq-icon" />
             )}
           </button>
           {openIndex === index && (
-            <div className="faq-answer">{faq.answer}</div>
+            <div className="ds-faq-answer">{faq.answer}</div>
           )}
         </div>
       ))}
