@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FiPlus, FiX } from "react-icons/fi";
-import "../Software/softwareProcess/SoftwareProcess.css"; // Import CSS file
+import "../Software/SoftwareFaq.css"; // Import CSS file
 
 const faqs = [
   {
@@ -39,19 +39,19 @@ export default function SoftwareFaq() {
   };
 
   return (
-    <div className="faq-container">
+    <div className="software-faq-container">
       {faqs.map((faq, index) => (
-        <div key={index} className="faq-box">
-          <button className="faq-question" onClick={() => toggleFAQ(index)}>
+        <div key={index} className="software-faq-box">
+          <button className="software-faq-question" onClick={() => toggleFAQ(index)}>
             {faq.question}
             {openIndex === index ? (
-              <FiX className="faq-icon" />
+              <FiX className="software-faq-icon" />
             ) : (
-              <FiPlus className="faq-icon" />
+              <FiPlus className="software-faq-icon" />
             )}
           </button>
           {openIndex === index && (
-            <div className="faq-answer">{faq.answer}</div>
+            <div className="software-faq-answer">{faq.answer}</div>
           )}
         </div>
       ))}
