@@ -39,19 +39,19 @@ export default function WebFaq() {
   };
 
   return (
-    <div className="faq-container">
+    <div className="web-faq-container">
       {faqs.map((faq, index) => (
-        <div key={index} className="faq-box">
-          <button className="faq-question" onClick={() => toggleFAQ(index)}>
+        <div key={index} className="web-faq-box">
+          <button className="web-faq-question" onClick={() => toggleFAQ(index)}>
             {faq.question}
             {openIndex === index ? (
-              <FiX className="faq-icon" />
+              <FiX className="web-faq-icon" />
             ) : (
-              <FiPlus className="faq-icon" />
+              <FiPlus className="web-faq-icon" />
             )}
           </button>
           {openIndex === index && (
-            <div className="faq-answer">{faq.answer}</div>
+            <div className="web-faq-answer">{faq.answer}</div>
           )}
         </div>
       ))}
